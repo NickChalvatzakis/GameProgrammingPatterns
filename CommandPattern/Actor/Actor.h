@@ -6,8 +6,7 @@
 #define ACTOR_H
 
 #include <iostream>
-
-#include "../Maths/Vector2.h"
+#include "../../Maths/Vector2.h"
 
 class Actor {
 public:

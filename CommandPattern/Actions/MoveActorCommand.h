@@ -8,9 +8,8 @@
 #include <memory>
 
 #include "../Command.h"
+#include "../../Maths/Vector2.h"
 #include "../Actor/Actor.h"
-
-class Actor;
 
 class MoveActorCommand final : public Command {
 private:

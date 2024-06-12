@@ -4,6 +4,8 @@
 
 #include "MoveActorCommand.h"
 
+#include <iostream>
+
 MoveActorCommand::MoveActorCommand(Actor &actor, const Vector2 newPosition): actor(actor),
                                                                              newPosition(newPosition),
                                                                              previousPosition(Vector2::Zero()) {

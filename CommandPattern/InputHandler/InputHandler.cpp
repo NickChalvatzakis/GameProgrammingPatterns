@@ -5,7 +5,7 @@
 #include "InputHandler.h"
 
 #include "../Actions/MoveActorCommand.h"
-#include "../Maths/Vector2.h"
+#include "../../Maths/Vector2.h"
 
 Command *InputHandler::HandleMouseInput(Actor &actor, const Vector2 mousePosition) {
     Command *currentCommand = new MoveActorCommand(actor, mousePosition);

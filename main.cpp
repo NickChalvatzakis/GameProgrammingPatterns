@@ -3,6 +3,7 @@
 
 #include "CommandPattern/Actor/Actor.h"
 #include "CommandPattern/InputHandler/InputHandler.h"
+#include "Maths/Vector2.h"
 
 int main() {
     const std::unique_ptr<Actor> actor = std::make_unique<Actor>();
