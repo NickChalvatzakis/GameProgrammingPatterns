@@ -11,5 +11,5 @@ add_executable(GameProgrammingPatterns main.cpp
         CommandPattern/Actor/Actor.h
         CommandPattern/Actions/MoveActorCommand.cpp
         CommandPattern/Actions/MoveActorCommand.h
-        CommandPattern/MathUtil/Vector2.h
+        CommandPattern/Maths/Vector2.h
 )
