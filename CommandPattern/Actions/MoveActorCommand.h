@@ -18,22 +18,11 @@ private:
     Vector2 newPosition, previousPosition;
 
 public:
-    MoveActorCommand(Actor &actor, const Vector2 newPosition) : actor(actor),
-                                                                newPosition(newPosition),
-                                                                previousPosition(Vector2::Zero()) {
-        type = "Move Command";
-    }
+    MoveActorCommand(Actor &actor, const Vector2 newPosition);
 
-    void execute() override {
-        std::cout << "Executing command" << std::endl;
-        previousPosition = actor.position;
-        actor.MoveTo(newPosition);
-    }
+    void execute() override;
 
-    void undo() override {
-        std::cout << "Executing Undo Command" << std::endl;
-        actor.MoveTo(previousPosition);
-    }
+    void undo() override;
 };
 
 
