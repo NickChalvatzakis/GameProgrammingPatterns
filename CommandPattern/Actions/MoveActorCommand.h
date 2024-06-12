@@ -18,7 +18,7 @@ private:
     Vector2 newPosition, previousPosition;
 
 public:
-    MoveActorCommand(Actor &actor, const Vector2 newPosition);
+    MoveActorCommand(Actor &actor, Vector2 newPosition);
 
     void execute() override;
 
